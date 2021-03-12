@@ -65,8 +65,8 @@
     }
     .btn_guide
     {
-       height: 150px;
-       
+       height: 170px;
+       position: relative;
     }
     #test_btn2
     {
