@@ -1,92 +1,322 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|ZCOOL+QingKe+HuangYou');
-*{
-   margin: 0.5px;
-   padding: 0px;
-   }
-.fn-font {
-     font-family: 'Noto Sans KR', sans-serif;
-}
 
-    #logo
-    {
-       color:#ffff;
-    }
+  body {
+    background-size: 100%;
+    margin: 0;
 
-    #acropolis
-    {
-       color:#ffff;
-    }
+    background: linear-gradient(#a8eeffea, #e5eaf8);
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 24px;
+    background: #313131;
+  }
+  
+  .title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 1000;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  
+  .menuTab {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+  }
+  
+  .menuTab a {
+    text-decoration: none;
+    color: #fafafa;
+    transition: 0.4s;
+  }
+  
+  .menuTab li {
+    padding: 8px 12px;
+  }
+  
+  .menuTab a:hover {
+    color: rgb(117, 117, 117);
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    margin-top: 100px;
+  }
+  
+  .TMS {
+    margin: 1;
+    font-size: 90px;
+    text-align:center;
+    color: #ffffff;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
 
-    #manage
-    {
-       color:#ffff;
-    }
 
-    .picture
-    {
-      width: 75px;
-      position: relative;
-    }
 
-    .main
-    {
-    background-color: #7289DA;
-    color:#ffff;;
-    font-size: 18px;
-    width: 100%;
-    height: 30px;
-     }
 
-     .common {
-       display: inline-block;
-       font-size: 20px;
-       width: 100px;
-       height:50px;
-    }
+  .btn {
+
+        margin: auto;
+
+        width:20%;
+
+        font-family: 'Noto Sans KR', sans-serif;
+
+        text-align:center;
+    
+        background-color: #ffffff;
+    
+        border: none;
+    
+        color:rgb(0, 0, 0);
+    
+        padding: 10px 0;
+    
+        text-decoration: none;
+    
+        display: inline-block;
+    
+        font-size: 25px;
 
     
-    #test_btn1
-    {
-        width: 300px;
-        height: 40px;
-        background-color: #7289DA;
-        color:#ffff;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        margin-right:-4px;
+        cursor: pointer;
+
         border-radius:10px;
-        padding: 5px;
-        font-size: 18px;
-    }
-    .btn_group
-    {
-       height: 200px;
-       position: relative;
-    }
-    .btn_guide
-    {
-       height: 170px;
-       position: relative;
-    }
-    #test_btn2
-    {
-        width: 300px;
-        height: 40px;
-        background-color: #7289DA;
-        color:#ffff;
-        margin-right:-4px;
-        border-radius:10px;
-        padding: 5px;
-        font-size: 18px;
+    
     }
 
-   .content {
-    display: table-cell;
-   text-align: center;
-   vertical-align: middle;
+
+    .btn:hover {
+        background-color: #dbdbdb;
+        transition: 0.4s;
     }
 
-    .menu {
-       float: left;
-       }
-   
+
+    .btn2 {
+
+        margin: auto;
+
+        width:20%;
+
+        font-family: 'Noto Sans KR', sans-serif;
+
+        text-align:center;
+    
+        background-color: #ffffff;
+    
+        border: none;
+    
+        color:rgb(0, 0, 0);
+    
+        padding: 10px 0;
+    
+        text-decoration: none;
+    
+        display: inline-block;
+    
+        font-size: 25px;
+
+    
+        cursor: pointer;
+
+        border-radius:10px;
+    
+    }
+
+
+    .btn2:hover {
+        background-color: #dbdbdb;
+        transition: 0.4s;
+    }
+
+
+    .btn3 {
+
+      margin: auto;
+
+      width:20%;
+
+      font-family: 'Noto Sans KR', sans-serif;
+
+      text-align:center;
+  
+      background-color: #2c2c2c;
+  
+      border: none;
+  
+      color:rgb(255, 255, 255);
+  
+      padding: 10px 0;
+  
+      text-decoration: none;
+  
+      display: inline-block;
+  
+      font-size: 25px;
+
+  
+      cursor: pointer;
+
+      border-radius:10px;
+  
+  }
+
+
+  .btn3:hover {
+      background-color: #535353;
+      transition: 0.4s;
+  }
+
+
+  .btn4 {
+
+      margin: auto;
+
+      width:20%;
+
+      font-family: 'Noto Sans KR', sans-serif;
+
+      text-align:center;
+  
+      background-color: #2c2c2c;
+  
+      border: none;
+  
+      color:rgb(255, 255, 255);
+  
+      padding: 10px 0;
+  
+      text-decoration: none;
+  
+      display: inline-block;
+  
+      font-size: 25px;
+
+  
+      cursor: pointer;
+
+      border-radius:10px;
+  
+  }
+
+
+  .btn4:hover {
+      background-color: #535353;
+      transition: 0.4s;
+  }
+
+
+
+
+  
+  @media only screen and (min-width: 1000px) {
+    .TMS {
+      font-size: 50px;
+    }
+    .Manage {
+      font-size: 40px;
+    }
+}
+  
+  @media only screen and (min-width: 1700px) {
+    .TMS {
+      font-size: 70px;
+    }
+    .Manage {
+      font-size: 40px;
+    }
+}
+ 
+  #group2 {
+    margin-top: 70px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 15px;
+  }
+
+
+  .ManageT {
+    margin: 1;
+    font-size: 50px;
+    text-align:center;
+    color: #000000;
+    margin-top: 90px;
+    font-family: 'Kanit', sans-serif;
+
+
+  }
+
+  .ManageT2 {
+    margin: 1;
+    font-size: 35px;
+    text-align:center;
+    color: #000000;
+    margin-top: 90px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+
+  }
+
+  .ManageT3 {
+    margin: 1;
+    font-size: 20px;
+    text-align:center;
+    color: #000000;
+    margin-top: 90px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+
+  }
+
+  .b{
+    text-align:left;
+  }
+
+  #group3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #313131;
+    text-align: center;
+    padding: 60px 15px;
+
+  }
+
+
+  .TMSS {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 1000;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+    padding: 0px 50px;
+    display: inline-block;
+  }
+
+  .TMSS2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 500;
+    font-size: 1px;
+    color: #ffffff;
+    text-align: left;
+    padding: 0px 50px;
+  }
+
+
+  /*.footer2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 1000;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: left;
+    padding: 0px 150px;
+    display: inline-block;
+  }*/
+
